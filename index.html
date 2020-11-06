@@ -8,7 +8,8 @@
         <title>HaneHale no jutso</title>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script type="text/javascript" src="https://d3js.org/d3.v6.min.js"></script>
-        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="ingredientStatistics.js"></script>
+        <script type="text/javascript" src="participantStatistics.js"></script>
     </head>
     <body>
         <div class="content-wrapper-before gradient-45deg-indigo-purple"></div>
@@ -17,62 +18,9 @@
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title">Contestants</span>
-                        <ul class="collection">
-                            <li class="collection-item avatar">
-                                <img src="images/contestants/brian.jpg" alt="" class="circle">
-                                <span class="title">Brian</span>
-                                <p>Wins: <span class="wins">0</span><br>
-                                Participations: <span class="participations">2</span></p>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="images/contestants/oliver.jpg" alt="" class="circle">
-                                <span class="title">Oliver</span>
-                                <p>Wins: <span class="wins">0</span><br>
-                                Participations: <span class="participations">1</span></p>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="images/contestants/mani.jpg" alt="" class="circle">
-                                <span class="title">Magnus</span>
-                                <p>Wins: <span class="wins">0</span><br>
-                                Participations: <span class="participations">2</span></p>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="images/contestants/galle.jpg" alt="" class="circle">
-                                <span class="title">Christian Johan</span>
-                                <p>Wins: <span class="wins">0</span><br>
-                                Participations: <span class="participations">2</span></p>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="images/contestants/panduro.jpg" alt="" class="circle">
-                                <span class="title">Martin</span>
-                                <p>Wins: <span class="wins">0</span><br>
-                                Participations: <span class="participations">2</span></p>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="images/contestants/fabian.jpg" alt="" class="circle">
-                                <span class="title">Fabian</span>
-                                <p>Wins: <span class="wins">0</span><br>
-                                Participations: <span class="participations">2</span></p>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="images/contestants/alex.jpg" alt="" class="circle">
-                                <span class="title">Alex</span>
-                                <p>Wins: <span class="wins">1</span><br>
-                                Participations: <span class="participations">1</span></p>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="images/contestants/maurits.jpg" alt="" class="circle">
-                                <span class="title">Maurits</span>
-                                <p>Wins: <span class="wins">0</span><br>
-                                Participations: <span class="participations">2</span></p>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="images/contestants/molle.jpg" alt="" class="circle">
-                                <span class="title">Kristian</span>
-                                <p>Wins: <span class="wins">1</span><br>
-                                Participations: <span class="participations">2</span></p>
-                            </li>
-                        </ul>
+                        <div id="js-participant-statistics">
+                            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -86,9 +34,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-
         </div>
 
     </body>
