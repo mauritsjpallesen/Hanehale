@@ -17,3 +17,8 @@
 *, :after, :before {
     box-sizing: inherit;
 }
+
+#js-ingredient-Statistics {
+    max-width: 794px;
+    margin: auto;
+}

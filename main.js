@@ -44,7 +44,7 @@ const data = {
                     children: [
                         {
                             name: 'Absolut',
-                            value: 1
+                            value: 2
                         }
                     ]
                 },
@@ -109,6 +109,14 @@ const data = {
                 {
                     name: 'Cinnamon',
                     value: 1
+                },
+                {
+                    name: 'Egg White',
+                    value: 1
+                },
+                {
+                    name: 'Raspberry Pieces',
+                    value: 1
                 }
             ]
         },
@@ -140,6 +148,14 @@ const data = {
                         },
                         {
                             name: 'Coole Swan',
+                            value: 1
+                        },
+                        {
+                            name: 'Créme de Cassis',
+                            value: 1
+                        },
+                        {
+                            name: 'Sesam',
                             value: 1
                         }
                     ]
@@ -191,6 +207,10 @@ const data = {
                                 {
                                     name: 'Green',
                                     value: 1
+                                },
+                                {
+                                    name: 'Black',
+                                    value: 1
                                 }
                             ]
                         }
@@ -218,7 +238,7 @@ const data = {
                         },
                         {
                             name: 'Fresh Lime Juice',
-                            value: 4
+                            value: 5
                         },
                         {
                             name: 'Raspberry Puree',
