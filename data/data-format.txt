@@ -1,0 +1,8 @@
+Data in csv is stored as:
+row[0] is participants
+row[n] for n > 0 is the score given by participant n
+row[n][x] for n > 0 && x >= 0 is score given by participants[n] to participant[x]
+
+Computations:
+The sum of a column is the total score achieved by that participant
+The sum of a row is the total points awarded by a participant
