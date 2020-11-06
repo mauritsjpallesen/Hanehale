@@ -26,7 +26,7 @@
                         name: 'Rum',
                         children: [
                             {
-                                name: 'Ron Palma Mulata 7 Anejo',
+                                name: 'Ron Mulata 7 Anejo',
                                 value: 1
                             },
                             {
