@@ -23,6 +23,11 @@
     margin: auto;
 }
 
-#js-participant-statistics {
+#js-podium img {
+    max-width: 100%;
+}
 
+#js-podium .podium-participant {
+    width: 75px;
+    height: 75px;
 }
