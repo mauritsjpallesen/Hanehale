@@ -14,8 +14,34 @@
     background: linear-gradient(45deg,#303f9f,#7b1fa2)!important;
 }
 
+.gradient-45deg-light-blue-cyan {
+    background: -webkit-linear-gradient(45deg,#0288d1,#26c6da)!important;
+    background: linear-gradient(45deg,#0288d1,#26c6da)!important;
+}
+
+.gradient-45deg-red-pink {
+    background: -webkit-linear-gradient(45deg,#ff5252,#f48fb1)!important;
+    background: linear-gradient(45deg,#ff5252,#f48fb1)!important;
+}
+
+.gradient-45deg-amber-amber {
+    background: -webkit-linear-gradient(45deg,#ff6f00,#ffca28)!important;
+    background: linear-gradient(45deg,#ff6f00,#ffca28)!important;
+}
+
+.gradient-45deg-green-teal {
+    background: -webkit-linear-gradient(45deg,#43a047,#1de9b6)!important;
+    background: linear-gradient(45deg,#43a047,#1de9b6)!important;
+}
+
 *, :after, :before {
     box-sizing: inherit;
+}
+
+.background-round {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.18);
 }
 
 #js-ingredient-Statistics {
@@ -30,4 +56,12 @@
 #js-podium .podium-participant {
     width: 75px;
     height: 75px;
+}
+
+.margin-bottom-zero {
+    margin-bottom: 0 !important;
+}
+
+.highlighted-stat {
+    min-height: 100%!important;
 }

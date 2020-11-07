@@ -19,6 +19,14 @@
                             {
                                 name: 'Tanqueray',
                                 value: 1
+                            },
+                            {
+                                name: 'Jameson',
+                                value: 1
+                            },
+                            {
+                                name: 'Gin Mare',
+                                value: 1
                             }
                         ]
                     },
@@ -66,8 +74,17 @@
                         ]
                     },
                     {
-                        name: 'Cachaça',
-                        children: []
+                        name: 'Cachaca',
+                        children: [
+                            {
+                                name: 'Copacaiba',
+                                value: 1
+                            },
+                            {
+                                name: 'Ypioca',
+                                value: 1
+                            }
+                        ]
                     }
                 ]
             },
@@ -117,6 +134,18 @@
                     {
                         name: 'Raspberry Pieces',
                         value: 1
+                    },
+                    {
+                        name: 'Juniper Berries',
+                        value: 1
+                    },
+                    {
+                        name: 'Strawberry',
+                        value: 1
+                    },
+                    {
+                        name: 'Rosemary',
+                        value: 1
                     }
                 ]
             },
@@ -151,7 +180,7 @@
                                 value: 1
                             },
                             {
-                                name: 'Créme de Cassis',
+                                name: 'Creme de Cassis',
                                 value: 1
                             },
                             {
@@ -177,7 +206,7 @@
                             },
                             {
                                 name: 'Simple',
-                                value: 1
+                                value: 2
                             },
                             {
                                 name: 'Grenadine',
@@ -194,6 +223,10 @@
                             },
                             {
                                 name: 'Grapefruit',
+                                value: 1
+                            },
+                            {
+                                name: 'Elderflower Tonic',
                                 value: 1
                             }
                         ]
@@ -225,7 +258,8 @@
                         name: 'Bitters',
                         children: [
                             {
-                                name:'Campari', value: 1
+                                name:'Campari',
+                                value: 1
                             }
                         ]
                     },
@@ -238,7 +272,7 @@
                             },
                             {
                                 name: 'Lime Juice',
-                                value: 5
+                                value: 6
                             },
                             {
                                 name: 'Raspberry Puree',
@@ -250,6 +284,15 @@
                             },
                             {
                                 name: 'Lemon Juice',
+                                value: 1
+                            }
+                        ]
+                    },
+                    {
+                        name: 'Miscellaneous',
+                        children: [
+                            {
+                                name: 'Red Cabbage Juice',
                                 value: 1
                             }
                         ]
