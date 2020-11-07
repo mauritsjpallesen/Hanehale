@@ -92,60 +92,94 @@
                 name: 'Garnish',
                 children: [
                     {
-                        name: 'Lime',
-                        value: 1
+                        name: 'Fruits',
+                        children: [
+                            {
+                                name: 'Lime',
+                                value: 1
+                            },
+                            {
+                                name: 'Blackberry',
+                                value: 1
+                            },
+                            {
+                                name: 'Lemon',
+                                value: 1
+                            },
+                            {
+                                name: 'Grapefruit',
+                                value: 1
+                            },
+                            {
+                                name: 'Chili',
+                                value: 1
+                            },
+                            {
+                                name: 'Juniper Berries',
+                                value: 1
+                            },
+                            {
+                                name: 'Strawberry',
+                                value: 1
+                            },
+                            {
+                                name: 'Raspberry Pieces',
+                                value: 1
+                            }
+                        ]
                     },
                     {
-                        name: 'Orange Peel',
-                        value: 1
+                        name: 'Twists',
+                        children: [
+                            {
+                                name: 'Orange Peel',
+                                value: 1
+                            }
+                        ]
                     },
                     {
-                        name: 'Syringe',
-                        value: 1
+                        name: 'Leaves',
+                        children: [
+                            {
+                                name: 'Shiso',
+                                value: 1
+                            },
+                            {
+                                name: 'Rosemary',
+                                value: 1
+                            }
+                        ]
                     },
                     {
-                        name: 'Shiso Leaves',
-                        value: 1
+                        name: 'Foods',
+                        children: [
+                            {
+                                name: 'Whipped Cream',
+                                value: 1
+                            }
+                        ]
                     },
                     {
-                        name: 'Blackberry',
-                        value: 1
+                        name: 'Objects',
+                        children: [
+                            {
+                                name: 'Syringe',
+                                value: 1
+                            }
+                        ]
                     },
                     {
-                        name: 'Lemon',
-                        value: 1
-                    },
-                    {
-                        name: 'Grapefruit',
-                        value: 1
-                    },
-                    {
-                        name: 'Chili',
-                        value: 1
-                    },
-                    {
-                        name: 'Cinnamon',
-                        value: 1
-                    },
-                    {
-                        name: 'Egg White',
-                        value: 1
-                    },
-                    {
-                        name: 'Raspberry Pieces',
-                        value: 1
-                    },
-                    {
-                        name: 'Juniper Berries',
-                        value: 1
-                    },
-                    {
-                        name: 'Strawberry',
-                        value: 1
-                    },
-                    {
-                        name: 'Rosemary',
-                        value: 1
+                        name: 'Miscellaneous',
+                        children: [
+                            {
+                                name: 'Cinnamon',
+                                value: 1
+                            },
+                            {
+                                name: 'Egg White',
+                                value: 1
+                            }
+                        ]
                     }
                 ]
             },
@@ -185,6 +219,10 @@
                             },
                             {
                                 name: 'Sesam',
+                                value: 1
+                            },
+                            {
+                                name: 'Contreau',
                                 value: 1
                             }
                         ]
@@ -228,6 +266,10 @@
                             {
                                 name: 'Elderflower Tonic',
                                 value: 1
+                            },
+                            {
+                                name: 'Club Soda',
+                                value: 2
                             }
                         ]
                     },
@@ -293,6 +335,14 @@
                         children: [
                             {
                                 name: 'Red Cabbage Juice',
+                                value: 1
+                            },
+                            {
+                                name: 'Brown Sugar',
+                                value: 1
+                            },
+                            {
+                                name: 'Coffee',
                                 value: 1
                             }
                         ]
