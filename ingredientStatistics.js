@@ -1,8 +1,4 @@
 (function() {
-    // Data mangler:
-    // Olis rom
-    // Fritz tequila (men han kan ikke huske hvilken)
-    // Manis Cachaça
     const data = {
         name: 'HaneHale Ingredient Statistics',
         children: [
@@ -52,14 +48,24 @@
                         children: [
                             {
                                 name: 'Absolut',
-                                value: 2
+                                value: 3
                             }
                         ]
                     },
                     {
                         name: 'Whiskey',
-                        children: []
-                    },
+                        children: [
+                            {
+                                name: 'Bourbon',
+                                children: [
+                                    {
+                                    name: 'Jim Beam',
+                                    value: 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
                     {
                         name: 'Arrack',
                         children: [{name: 'Batavia', value: 1}]
@@ -85,6 +91,15 @@
                                 value: 1
                             }
                         ]
+                    },
+                    {
+                        name: 'Aquavit',
+                        children: [
+                            {
+                                name: 'O.P. Andersen',
+                                value: 1
+                            }
+                        ]
                     }
                 ]
             },
@@ -96,6 +111,10 @@
                         children: [
                             {
                                 name: 'Lime',
+                                value: 2
+                            },
+                            {
+                                name: 'Orange',
                                 value: 1
                             },
                             {
@@ -104,7 +123,7 @@
                             },
                             {
                                 name: 'Lemon',
-                                value: 1
+                                value: 2
                             },
                             {
                                 name: 'Grapefruit',
@@ -124,6 +143,10 @@
                             },
                             {
                                 name: 'Raspberry Pieces',
+                                value: 1
+                            },
+                            {
+                                name: 'Pomegranate Arils',
                                 value: 1
                             }
                         ]
@@ -147,6 +170,10 @@
                             {
                                 name: 'Rosemary',
                                 value: 1
+                            },
+                            {
+                                name: 'Mint',
+                                value: 1
                             }
                         ]
                     },
@@ -155,6 +182,10 @@
                         children: [
                             {
                                 name: 'Whipped Cream',
+                                value: 1
+                            },
+                            {
+                                name: 'Chocolate Twirls',
                                 value: 1
                             }
                         ]
@@ -173,11 +204,11 @@
                         children: [
                             {
                                 name: 'Cinnamon',
-                                value: 1
+                                value: 2
                             },
                             {
                                 name: 'Egg White',
-                                value: 1
+                                value: 2
                             }
                         ]
                     }
@@ -224,6 +255,10 @@
                             {
                                 name: 'Contreau',
                                 value: 1
+                            },
+                            {
+                                name: 'Rhubarb',
+                                value: 1
                             }
                         ]
                     },
@@ -248,6 +283,14 @@
                             },
                             {
                                 name: 'Grenadine',
+                                value: 1
+                            },
+                            {
+                                name: 'Mable Syrup',
+                                value: 1
+                            },
+                            {
+                                name: 'Orgeat',
                                 value: 1
                             }
                         ]
@@ -314,7 +357,11 @@
                             },
                             {
                                 name: 'Lime Juice',
-                                value: 6
+                                value: 7
+                            },
+                            {
+                                name: 'Grapefruit Juice',
+                                value: 1
                             },
                             {
                                 name: 'Raspberry Puree',
@@ -326,7 +373,7 @@
                             },
                             {
                                 name: 'Lemon Juice',
-                                value: 1
+                                value: 3
                             }
                         ]
                     },
@@ -343,6 +390,14 @@
                             },
                             {
                                 name: 'Coffee',
+                                value: 1
+                            },
+                            {
+                                name: 'Strawberry Jam',
+                                value: 1
+                            },
+                            {
+                                name: 'Honey',
                                 value: 1
                             }
                         ]

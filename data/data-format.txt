@@ -1,4 +1,5 @@
-Data in csv is stored as:
+
+For 2020, the data in csv is stored as:
 row[0] is participants
 row[n] for n > 0 is the score given by participant n
 row[n][x] for n > 0 && x >= 0 is score given by participants[n] to participant[x]
@@ -6,3 +7,10 @@ row[n][x] for n > 0 && x >= 0 is score given by participants[n] to participant[x
 Computations:
 The sum of a column is the total score achieved by that participant
 The sum of a row is the total points awarded by a participant
+
+
+For 2022, the data in csv is stored as:
+row[0] for all rows except the fist is participant name
+row[n] for n > 0 is the score the participant received in category n
+Sum of column is total points awarded in the associated category
+Sum of rows is total points awarded to the associated participant

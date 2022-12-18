@@ -2,13 +2,13 @@
     const data = [
         {
             name: 'Maurits',
-            Losses: 2,
-            Podiums: 0,
+            Losses: 4,
+            Podiums: 2,
             Wins: 0
         },
         {
             name: 'Brian',
-            Losses: 2,
+            Losses: 3,
             Podiums: 1,
             Wins: 0
         },
@@ -20,20 +20,20 @@
         },
         {
             name: 'Fabian',
-            Losses: 2,
+            Losses: 3,
             Podiums: 0,
             Wins: 0
         },
         {
             name: 'Christian Johan',
-            Losses: 2,
+            Losses: 3,
             Podiums: 0,
             Wins: 0
         },
         {
             name: 'Kristian',
-            Losses: 0,
-            Podiums: 2,
+            Losses: 3,
+            Podiums: 3,
             Wins: 1
         },
         {
@@ -44,21 +44,21 @@
         },
         {
             name: 'Oliver',
-            Losses: 1,
-            Podiums: 0,
-            Wins: 0
+            Losses: 2,
+            Podiums: 1,
+            Wins: 1
         },
         {
             name: 'Magnus',
-            Losses: 2,
+            Losses: 3,
             Podiums: 0,
             Wins: 0
         },
         {
             name: 'Martin',
-            Losses: 2,
-            Podiums: 0,
-            Wins: 0
+            Losses: 3,
+            Podiums: 1,
+            Wins: 1
         }
     ];
 
